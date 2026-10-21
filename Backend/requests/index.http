@@ -1,0 +1,6 @@
+//Bienvenida 
+GET http://localhost:4000/
+//ping
+GET http://localhost:4000/ping
+//ruta que no existe 
+GET http://localhost:4000/no-existe
