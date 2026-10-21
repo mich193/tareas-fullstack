@@ -1,7 +1,7 @@
 import {pool} from "../db.js"
 
 export const index = (req, res) => {
-    res.json({message: "Bienvenido a la API de tareas"});
+    res.json({ message: "Bienvenido a la API de tareas" });
 };
 
 export const ping = async (req, res) => {
