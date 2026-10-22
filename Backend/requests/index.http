@@ -5,6 +5,13 @@
 //ruta que no existe 
  GET http://localhost:4000/no-existe
 
- //registro orueba inicial
+ //registro prueba inicial
  post http://localhost:4000/api/auth/register
  
+ Content-type: application/json
+
+ {
+    "username": "ana",
+    "email": "ana@correo.com",
+    "password": "123456"
+ }
